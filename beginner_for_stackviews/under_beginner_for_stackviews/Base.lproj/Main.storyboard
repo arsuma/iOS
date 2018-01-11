@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="under_beginner_for_stackviews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sfi-MY-EeT" userLabel="firstView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                <color key="backgroundColor" red="0.5937149753157448" green="0.52994074051267148" blue="1" alpha="0.82383362676056338" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="U6r-bL-oY6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SZw-9j-TNA" userLabel="secondView">
+                                <rect key="frame" x="0.0" y="200" width="150" height="578"/>
+                                <color key="backgroundColor" red="0.93286875829255911" green="0.6458988761382678" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="zRt-CC-eGh"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CAP-XI-ALQ">
+                                <rect key="frame" x="150" y="200" width="225" height="578"/>
+                                <color key="backgroundColor" red="0.78108882423650483" green="0.45755447265418547" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CAP-XI-ALQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4ch-Eu-11K"/>
+                            <constraint firstItem="SZw-9j-TNA" firstAttribute="top" secondItem="Sfi-MY-EeT" secondAttribute="bottom" id="4yl-4S-GSI"/>
+                            <constraint firstItem="Sfi-MY-EeT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BiH-em-crU"/>
+                            <constraint firstItem="Sfi-MY-EeT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CNw-ML-yAj"/>
+                            <constraint firstItem="CAP-XI-ALQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Sge-pv-rcf"/>
+                            <constraint firstItem="CAP-XI-ALQ" firstAttribute="top" secondItem="Sfi-MY-EeT" secondAttribute="bottom" id="T6n-yC-ZcS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SZw-9j-TNA" secondAttribute="bottom" id="TjC-2O-Fpd"/>
+                            <constraint firstItem="SZw-9j-TNA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dXe-bI-drT"/>
+                            <constraint firstItem="CAP-XI-ALQ" firstAttribute="leading" secondItem="SZw-9j-TNA" secondAttribute="trailing" id="hsc-cL-ax1"/>
+                            <constraint firstItem="Sfi-MY-EeT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uEL-Q5-0Q3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
